@@ -7,12 +7,9 @@ void setup() {
 }
 
 void loop() {
-  if (digitalRead(BUTTON)== LOW)
-     {
+  if (digitalRead(BUTTON)== LOW) {
     digitalWrite(LED, LOW);
-     }
-  else
-     {
+  } else {
     digitalWrite(LED,HIGH);
-     }
+  }
 }
