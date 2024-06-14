@@ -5,7 +5,7 @@ void setup() {
 }
 
 void loop() {
-  int reading = analogRead(0);
+  int reading = analogRead(TEMP);
   float voltage = reading * 5.0;
     voltage /= 1024.0;
   Serial.print(voltage); Serial.println(" volts");
